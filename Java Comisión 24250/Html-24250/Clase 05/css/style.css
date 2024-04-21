@@ -1,0 +1,50 @@
+/* Comentario de linea */
+/* Esto
+es un comentario
+de bloque
+Por ejemplo 
+Autor: Nombre del Autor
+Fecha: Fecha de Creación
+Descripción: Este archivo CSS contiene los estilos para el sitio web X.
+*/
+
+/* Secciones de un código en css 
+1- Comentarios de cabecera
+
+2- Reglas de estilo, ordenados por especificidad :
+    a- Reglas universales.
+    b- Reglas generales root o <html>, <body>, header, footer, main 
+    c- Otros selectores de tipo o etiquetas: hi, p, span, a
+    d- selectores de id 
+    e- selectores de clase
+    f- selectores especificos o pseudo-clases
+
+3- Media Queries 
+*/
+
+html, body {
+    font-size: 32px;
+    /* 
+       absoluta = pixel
+       relativas = em, rem, %, vh, vw
+       16px = 1 em
+       2 em = 16*2 = 32px
+    */ 
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+/* header
+*/
+/*
+. class
+# id
+*/
+.header_logo {
+    margin-top: 3em;
+    margin-left: 3em;
+    font-size: 2em;
+}
+.logo-color i{
+    color: #f2f2f2;
+}
