@@ -1,0 +1,77 @@
+<!-- 
+En este práctico vamos a comenzar a desarrollar un sitio web
+En esta clase vamos a estructurar un menú valiendonos de listas y etiquetas
+semánticas correspondientes
+Vamos a establecer rutas para conectar distintas páginas 
+1- Diseñamos la barra de navegación
+2- vinculamos la seccion API Movie con la página con referencias absolutas
+3- Creamos la página register.html 
+4- Vinculamos el menú con la pagina register.html con referencias relativas
+5- Generamos un enlace interno
+6- Generamos una
+una descarga de archivo
+-->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CaC-Movies, peliculas y series online</title>
+</head>
+<body>
+    <!-- diseño de la cabecera de la página -->
+    <!-- <header> es una sección que generalmente se encuentra en la parte superior
+    de una página web y proporciona información importante 
+    sobre el contenido o la navegación de esa página. 
+    Es importante tener en cuenta que el <header> 
+    no debe confundirse con el elemento <head>, 
+    que se utiliza para contener metadatos y enlaces a recursos externos 
+    en el documento HTML.
+    -->
+    <header>
+        <!-- diseño de la barra de navegación -->
+        <nav>
+            <h1>🎬CAC-Movies</h1>
+            <!--diseño del menu con etiqueta de listas desordenadas-->
+            <ul type="square">
+                
+                <li>Tendencia</li>
+
+                <!-- trabajamos con referencias relativas -->
+                <!-- ./ hace referencia al directoria actual -->
+
+                <li><a href="./register.html" title="haz click para registrarte">Registrate</a></li>
+
+                <!--trabajamos con enlaces absolutos-->
+                <!--
+                    introducimos la etiqueta a con su atributo href
+                    hfer indica donde debe dirigiste el vinculo al hacer click 
+                    Para abrir un enlace en una nueva ventana o pestaña, 
+                    puedes utilizar el valor _blank
+                -->
+                <li>
+                    <a href="https://developer.themoviedb.org/docs" target="_blank" title="Hace click aqui para ir a la API">API movie</a>
+                </li>
+
+                <li>Iniciar Sesión</li>
+            </ul>
+
+             <!--diseño del menu con etiqueta de listas ordenadas-->
+             <ol type="I">
+                <li>Tendencia</li>
+                <li>Registrate</li>
+                <li>API movie</li>
+                <li>Iniciar Sesión</li>
+            </ol>
+
+
+        </nav>
+
+    </header>
+
+
+
+
+</body>
+</html>
