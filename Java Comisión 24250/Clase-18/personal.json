@@ -1,0 +1,22 @@
+[
+    {
+        "id": "001a",
+        "nombre": "Luis",
+        "apellido": "Fernández",
+        "segundoNombre": null,
+        "edad": 30,
+        "hijos": [
+            "Ana",
+            "Luisa",
+            "Marcelo"
+        ]
+    },
+    {
+        "id": "002a",
+        "nombre": "Luisa",
+        "apellido": "Rodiriguez",
+        "segundoNombre": null,
+        "edad": 25,
+        "hijos": []
+    }
+]

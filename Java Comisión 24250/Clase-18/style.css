@@ -1,0 +1,46 @@
+html {
+  height: 100%;
+  width: 100%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1{
+  color:brown;
+}
+
+li{
+  color: brown;
+  font-size: 1.5em;
+  transition: all 0.3s ease;
+}
+
+li:hover{
+  color: rgb(216, 126, 61);
+  text-shadow: 0px 0px 5px brown;
+}
+
+/* Estilos para el contenedor de la tarjeta */
+
+.container {
+  width: 300px;
+  margin: 20px auto;
+  background-color: #aaf;
+  border-radius: 15px; /* Cantos redondeados */
+  overflow: hidden; /* Ocultar contenido que desborde del contenedor */  
+}
+
+/* Estilos para la imagen */
+.container img {
+  margin: 10px auto;
+  display: block;
+  height: 150px;
+  width: auto;
+  border-radius: 15px 15px 0 0; /* Cantos redondeados solo en la parte superior */
+}
+
+/* Estilos para los párrafos */
+.container p {
+  margin: 0; /* Eliminar márgenes por defecto de los párrafos */
+  padding: 10px; /* Espaciado interno */
+  text-align: left; /* Alinear texto a la izquierda */
+}
