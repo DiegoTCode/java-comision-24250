@@ -51,4 +51,3 @@ if (hasta>3) {
     alert("no tiene mas intentos.")
 }
 
-
