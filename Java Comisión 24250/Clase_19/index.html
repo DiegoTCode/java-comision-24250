@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercicios con JavaScript</title>
+  <!-- ZONA ESTILOS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <section id="section1">
+    <h2 id="titulo1">Título del ejercicio 1</h2>
+    <div id="tema1">
+      <!-- atajo p.contenido1#conenido$*2{contenido $} -->
+      <p class="contenido1" >Este contenido será modificado por JS</p>
+      <p class="contenido1" >Este contenido no está modificado por JS</p>      
+    </div>
+  </section>
+
+  <section id="section2">
+    <h2 id="titulo2">Titulo del ejercicio 2</h2>
+    <div id="tema2">
+      <!-- atajo p.contenido2*3{contenido a modificar}) -->
+      <p class="contenido2" >contenido a modificar</p>
+      <p class="contenido2" >contenido a modificar</p>
+      <p class="contenido2" >contenido a modificar</p>
+    </div>
+    <button class="boton boton-primario" onclick="cambiarTexto()">Botón primario</button>
+  </section>
+
+  <section id="section3">
+   <h2 id="titulo3">Titulo del ejercicio 3</h2>
+   <div id="tema3">
+      
+   </div>
+
+ </section>
+
+ <section id="section4">
+   <h2 id="titulo4">Titulo del ejercicio 4</h2>
+   <div id="tema4"></div>
+ </section>
+
+ <!-- activar este bloque y desactivar el siguiente para contenido dinamico -->
+<!--  <section id="section5">
+   <h2 id="titulo5">Titulo del ejercicio 5</h2>
+   <div id="tema5"></div>
+ </section> -->
+
+ <section id="section5">
+  <h2 id="titulo5" class="modificado">Manejo de eventos con addEventListener</h2>
+  <div id="tema5">
+   <p id="miAlert">¡Haz click aqui!</p>
+  </div>
+</section>
+
+ <!-- zona de scripts -->
+  <script src="./miArray.js"></script>
+  <script src="./script.js"></script>
+</body>
+</html>
