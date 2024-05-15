@@ -1,0 +1,98 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Passion+One:wght@400;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  /*box-sizing: border-box;*/
+}
+
+body {
+  background-color: #D98841;  
+  font-family: 'Comfortaa', cursive;
+  color: #2b2b2b;
+  min-height: 100vh;
+  grid-template-rows: auto 1fr auto;
+}
+
+header {
+  position: relative;
+  align-items: center;
+  padding: 5rem 4rem;
+  background-image: url('/MLL9xUy.png');
+  background-size: cover;
+  background-position: left ;
+  background-repeat: no-repeat;
+  color: snow;
+  text-align: left;
+}
+
+.header__title {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: snow;
+  font-size: 5rem;
+  text-align: left;
+}
+
+main{
+  height: 100vh;
+}
+
+.contenedor-tarjetas{
+  max-width: 1200px;
+  height: auto;
+  margin: 0 auto;
+  padding: 4rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.tarjeta{
+  max-width: 30%;
+  min-width: 200px;
+  max-height: 50%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  background-color: #F2C335;
+  overflow: hidden;
+}
+
+
+
+label{
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: darkgray;
+}
+
+.status {
+  display: flex;
+  align-items: center;
+}
+
+.alive {
+  font-size: 8px;
+  color: #86A641;
+}
+
+.dead {
+  font-size: 8px;
+  color: #D9653B;
+}
+
+.unknown {
+  font-size: 8px;
+  color: gray;
+}
+
+footer{
+  display: grid;
+  place-items: center;
+  font-size: 1.2rem;
+  text-align: center;
+  color: snow;
+  background-color: #402319;
+}
